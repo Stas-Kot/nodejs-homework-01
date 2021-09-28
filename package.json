@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-homework-01",
+  "version": "1.0.0",
+  "description": "Репозиторий для выполнения домашнего задания №1 по Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stas-Kot/nodejs-homework-01.git"
+  },
+  "keywords": [],
+  "author": "Stas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stas-Kot/nodejs-homework-01/issues"
+  },
+  "homepage": "https://github.com/Stas-Kot/nodejs-homework-01#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "commander": "^8.2.0",
+    "nodemon": "^2.0.13",
+    "uuid": "^8.3.2"
+  }
+}
