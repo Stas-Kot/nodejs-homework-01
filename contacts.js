@@ -16,7 +16,6 @@ async function getContactById(contactId) {
   const contactById = contacts.find(
     (contact) => String(contact.id) === contactId,
   )
-  console.log(contactById)
   if (!contactById) {
     return null
   }
